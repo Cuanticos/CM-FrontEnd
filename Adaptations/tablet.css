@@ -1,0 +1,38 @@
+
+
+.title-section{
+    justify-content: center;
+       
+} 
+
+
+
+@media screen and (max-width: 807px){
+    .contenedor-participantes{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .title-section{
+           justify-content: center;
+           margin-right: 200px;
+            padding-left: 200px ;
+    } 
+    
+}
+
+
+
+@media screen and (max-width: 375px){
+    .container__description--info h1{
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+    
+    .title-section{
+        font-size: 40px;
+        margin-right: 300px ;
+        padding-left: 150px;
+    }
+}
